@@ -2,7 +2,7 @@
 	import io from 'socket.io-client';
 	import { onMount } from 'svelte';
 
-	const endpoint = 'https://svelte-chat-green.vercel.app/';
+	const endpoint = 'https://svelte-chat-green.vercel.app';
 	const socket = io(endpoint);
 	let input = '';
 	let isPublic = true;
